@@ -1,9 +1,3 @@
-## debridge-cross-chain-dapp-example
-
-Explore a comprehensive demonstration showcasing a conceptual cross-chain decentralized application (dApp) leveraging the capabilities of the deBridge protocol. This example is developed using the Hardhat framework and the hardhat-debridge plugin. It provides insights into crafting, testing, simulating, and executing EVM (Ethereum Virtual Machine) contracts that rely on the infrastructure provided by deBridge.
-
-By examining this generic example, you'll gain insights into constructing various real-world applications and protocols. These could range from object bridges to price feeds, and even automated cross-chain arbitrage services. The adaptability and extensibility of this example open doors to limitless possibilities in the realm of decentralized applications and protocols. The potential applications are vast and diverse—only restricted by your imagination!
-
 ### Introduction
 
 Imagine a scenario where a `CrossChainCounter` contract is deployed on one blockchain. This contract holds a value that can be increased via a specific call initiated from another blockchain. However, the initiation of this call is exclusively allowed from the `CrossChainIncrementor` contract, residing at a predetermined and trusted address.
